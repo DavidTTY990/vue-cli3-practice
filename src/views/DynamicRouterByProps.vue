@@ -6,11 +6,12 @@
 import axios from 'axios'
 
 export default {
+  props: ['id'],
   created () {
-    console.log(this.$route.params.id)
-    const seed = this.$route.params.id
+    console.log('props:', this.id)
+    const seed = this.id
     axios.get(`https://randomuser.me/api/?seed=${seed}`)
-      .then(res => {
+      .then((res) => {
         console.log(res)
       })
   }

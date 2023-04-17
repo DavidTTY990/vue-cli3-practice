@@ -18,6 +18,7 @@
         </router-link>
         <router-link to="/newPage/NamedView/2ba" class="list-group-item list-group-item-action">命名 router 2ba</router-link>
         <router-link to="/newPage/NamedView/2ab" class="list-group-item list-group-item-action">命名 router 2ab</router-link>
+        <router-link to="/newPage/routerNavigation" class="list-group-item list-group-item-action">路由方法介紹章節</router-link>
       </div>
     </div>
     <div class="col-8">
